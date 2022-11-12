@@ -17,3 +17,4 @@ jobs:
         server: www.raeelaproduction.com
         username: ${{secrets.FTP_USERNAME}}
         password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /raeelaproduction.com/
